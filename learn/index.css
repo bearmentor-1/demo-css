@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  color: steelblue;
+  font-size: 2em;
+}
+
+p a {
+  color: steelblue;
+  font-weight: 700;
+}
+
+p a:visited {
+  color: steelblue;
+}
+
+.heading {
+  color: steelblue;
+  font-size: 4em;
+  font-family: "Anybody", sans-serif;
+}
+
+.button-primary {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 10px 20px;
+  background-color: steelblue;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button-primary:hover {
+  background-color: darkblue;
+}
+
+.contact-form {
+  margin: 20px 0;
+}
