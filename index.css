@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #zs;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item {
+  border: 2px solid green;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item.selected {
+  border: 2px solid blue;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
